@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>IT Transformation</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-xl bg-white border-bottom">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#">
+          <img src="/imgs/logo.svg" alt="IT Transformation Logo" width="220" height="38">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+              <img src="/imgs/logo.svg" alt="IT Transformation Logo" width="220" height="40">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body align-items-center">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Продукти</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Послуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Про нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакти</a>
+              </li>
+            </ul>
+            <div class="phone d-flex align-items-center pe-3">
+              <i class="bi bi-telephone-fill" style="font-size: 1rem; color: #2770F1;"></i>
+              <button type="button" class="btn btn-link">+38 (067)459-77-78</button>
+            </div>
+            <div class="dropdown pe-4">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                UA
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">UA</a></li>
+                <li><a class="dropdown-item" href="#">RU</a></li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-outline-primary">Зворотнiй дзвiнок</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators d-flex align-items-start">
+        <div class="container-lg d-flex align-items-center text-light">
+          <span class="slide-number me-3">01</span>
+          <div>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <span class="slide-count ms-4">04</span>
+        </div>
+      </div>
+      <div class="label text-light">
+        <div class="container-lg d-flex align-items-center mb-5">
+          <span class="label-line me-5"></span>
+          <p class="label-text m-0">Автоматизуй свiй бiзнес</p>
+        </div>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay-image" style="background-image: url('https://picsum.photos/1920?random=1');"></div>
+          <div class="overlay-image"></div>
+          <div class="container-lg d-flex flex-column align-items-start text-light py-5 mt-5">
+            <!-- <div class="label d-flex align-items-center mb-5">
+              <span class="label-line me-5"></span>
+              <p class="label-text m-0">Автоматизуй свiй бiзнес</p>
+            </div> -->
+            <h1 class="mb-4 pt-5">Комплексні рішення для управління та обліку</h1>
+            <p class="mb-5">Впровадження ERP, CRM, облікових систем з програмами BAS та 1С Підприємство</p>
+            <div class="btn-container">
+              <a class="btn btn-lg btn-outline-primary" href="#">Детальнiше</a>
+              <a class="btn btn-lg btn-primary" href="#">Замовити консультацiю</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url('https://picsum.photos/1920?random=2');"></div>
+          <div class="container-lg d-flex flex-column align-items-start text-light py-5 mt-5">
+            <!-- <div class="label d-flex align-items-center mb-5">
+              <span class="label-line me-5"></span>
+              <p class="label-text m-0">Автоматизуй свiй бiзнес</p>
+            </div> -->
+            
+            <h1 class="mb-4 pt-5">Серверне обладнання</h1>
+            <p class="mb-5">Допомога у підборі, налаштуванні та придбанні серверного і мережевого обладнання під задачі Вашого бізнесу</p>
+            <div class="btn-container">
+              <a class="btn btn-lg btn-outline-primary" href="#">Детальнiше</a>
+              <a class="btn btn-lg btn-primary" href="#">Замовити консультацiю</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url('https://picsum.photos/1920?random=3');"></div>
+          <div class="container-lg d-flex flex-column align-items-start text-light py-5 mt-5">
+            <!-- <div class="label d-flex align-items-center mb-5">
+              <span class="label-line me-5"></span>
+              <p class="label-text m-0">Автоматизуй свiй бiзнес</p>
+            </div> -->
+            
+            <h1 class="mb-4 pt-5">Комп'ютерна техніка</h1>
+            <p class="mb-5">Індивідуальні комплектації від світових брендів: Dell, HP (Hewlett Packard), Lenovo, Asus</p>
+            <div class="btn-container">
+              <a class="btn btn-lg btn-outline-primary" href="#">Детальнiше</a>
+              <a class="btn btn-lg btn-primary" href="#">Замовити консультацiю</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url('https://picsum.photos/1920?random=4');"></div>
+          <div class="container-lg d-flex flex-column align-items-start text-light py-5 mt-5">
+            <!-- <div class="label d-flex align-items-center mb-5">
+              <span class="label-line me-5"></span>
+              <p class="label-text m-0">Автоматизуй свiй бiзнес</p>
+            </div> -->
+            
+            <h1 class="mb-4 pt-5">Рішення Microsoft</h1>
+            <p class="mb-5">Виконуйте роботу бездоганно на всіх пристроях за допомогою інструментів для дому та бізнесу.</p>
+            <div class="btn-container">
+              <a class="btn btn-lg btn-outline-primary" href="#">Детальнiше</a>
+              <a class="btn btn-lg btn-primary" href="#">Замовити консультацiю</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner container-fluid p-md-0 ps-3">
+        <div class="carousel-item active d-flex align-items-center justify-content-between">
+          <div class="text-start offset-lg-2 me-5" style="max-width: 575px;">
+            <p class="label">Автоматизуй свiй бiзнес</p>
+            <h1>Комплексні рішення для управління та обліку</h1>
+            <p>Впровадження ERP, CRM, облікових систем з програмами BAS та 1С Підприємство</p>
+            <div class="btn-container">
+              <a class="btn btn-lg btn-outline-primary" href="#">Детальнiше</a>
+              <a class="btn btn-lg btn-primary" href="#">Замовити консультацiю</a>
+            </div>
+          </div>
+          
+          <div class="d-flex justify-content-end">
+            <img src="https://picsum.photos/460/615?random=1" class="d-block" alt="#" style="object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+  <section id="products" class="mt-5">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-md-4 pt-4" style="position: sticky; top:20px; height: 100%;">
+          <h2>Продукти</h2>
+          <p class="lead">Пропонуємо найкращі умови для придбання програмного забезпечення, комп’ютерної та офісної техніки від виробників: Dell, Asus, Hp, Lenovo.</p>
+          <button class="btn btn-lg btn-primary" href="#">Зворотнiй дзвiнок</button> 
+        </div>
+        <div class="col-md-8">
+          <div class="list-group">
+            <a href="#" class="product-link list-group-item list-group-item-action d-flex align-items-center py-4">
+              <div class="product-icon-bg d-flex justify-content-center me-3">
+                <img src="/imgs/software_icon.svg" class="product-icon" alt="#">
+              </div>
+              <h3 class="mb-0">Програмне забезпечення</h3>
+            </a>
+            <a href="#" class="product-link list-group-item list-group-item-action d-flex align-items-center py-4">
+              <div class="product-icon-bg d-flex justify-content-center me-3">
+                <img src="/imgs/server_icon.svg" class="product-icon" alt="#">
+              </div>
+              <h3 class="mb-0">Серверне обладнання</h3>
+            </a>
+            <a href="#" class="product-link list-group-item list-group-item-action d-flex align-items-center py-4">
+              <div class="product-icon-bg d-flex justify-content-center me-3">
+                <img src="/imgs/computer_icon.svg" class="product-icon" alt="#">
+              </div>
+              <h3 class="mb-0">Комп’ютерна технiка</h3>
+            </a>
+            <a href="#" class="product-link list-group-item list-group-item-action d-flex align-items-center py-4">
+              <div class="product-icon-bg d-flex justify-content-center me-3">
+                <img src="/imgs/trading_icon.svg" class="product-icon" alt="#">
+              </div>
+              <h3 class="mb-0">Торгiвельне обладнання</h3>
+            </a>
+            <a href="#" class="product-link list-group-item list-group-item-action d-flex align-items-center py-4">
+              <div class="product-icon-bg d-flex justify-content-center me-3">
+                <img src="/imgs/presentation_icon.svg" class="product-icon" alt="#">
+              </div>
+              <h3 class="mb-0">Презентацiйне обладнання</h3>
+            </a>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <section id="about" class="d-lg-flex align-items-center mt-5">
+    <div class="about-text">
+      <div class="container-lg px-4 py-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <h2>Про компанiю</h2>
+            <p>Команда сертифікованих спеціалістів в компанії з двадцятирічним досвідом у сфері ІТ.</p>
+            <p>Використовуючи накопичений досвід, з легкістю виконаємо впровадження як великих корпоративних проектів, так і вирішимо задачі малого та середнього бізнесу.</p>
+            <p>Пропонуємо індивідуальний комплексний підхід для автоматизації бізнесу будь-якої складності.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-img-container d-flex">
+      <div class="about-facts d-flex align-items-stretch flex-column">
+        <div class="fact-container d-flex flex-column align-items-center justify-content-center text-center text-light">
+          <div class="fact-number">132+</div>
+          <div class="fact-text">підприємства обслуговується</div>
+        </div>
+        <div class="fact-container d-flex flex-column align-items-center justify-content-center text-center text-light" 
+             style="background: #27447C;">
+          <div class="fact-number">278+</div>
+          <div class="fact-text">впроваджень</div>
+        </div>
+        <div class="fact-container d-flex flex-column align-items-center justify-content-center text-center text-light" 
+             style="background: #242D3C;">
+          <div class="fact-number">32+</div>
+          <div class="fact-text">спеціалістів</div>
+        </div>
+      </div>
+      <div class="fact-container d-flex flex-column align-items-center justify-content-center text-center text-light" 
+            style="background: #2770F1; position: absolute; right: 0; bottom: 0;">
+          <div class="fact-number">20+</div>
+          <div class="fact-text">рокiв в IT</div>
+      </div>
+      <img src="https://picsum.photos/1200?random=5" class="img-fluid" alt="#" 
+           style="max-height: 500px;
+                  object-fit: cover;
+                  width: 100%;">
+    </div>
+  
+  </section>
+
+  <section id="services" class="mt-5">
+    <div class="container-lg px-4 pt-5">
+      <h2 class="pb-2">Послуги</h2>
+      <div class="row row-cols-1 row-cols-md-2 justify-content-md-between g-4 pt-5 ">
+        <div class="feature col border-bottom">
+          <a class="service-link" href="#">
+            <div class="service-header">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M60 30C60 13.4315 46.5685 0 30 0V0C13.4315 0 -3.8147e-06 13.4315 -3.8147e-06 30V30C-3.8147e-06 46.5685 13.4315 60 30 60V60C46.5685 60 60 46.5685 60 30V30Z" fill="#EFF0F8"/>
+                  <path d="M24.7594 26.3641H27.9281L30 28.4359L32.0719 26.3641H35.2406C35.2609 26.3641 35.2813 26.3438 35.2813 26.3235V19.1938C35.2813 19.1734 35.2609 19.1531 35.2406 19.1531H24.7594C24.7391 19.1531 24.7188 19.1734 24.7188 19.1938V26.3235C24.7188 26.3438 24.7391 26.3641 24.7594 26.3641Z" fill="#A7B5D1"/>
+                  <path d="M24.6578 34.3875L24.5562 34.3672L22.8297 34.1031C22.8297 34.0219 22.8297 33.961 22.8297 33.8797L22.4437 29.8172C22.3625 28.3953 21.1234 27.2985 19.7015 27.4C18.2797 27.461 17.2031 28.6797 17.2843 30.1016L17.6703 34.1641C17.7312 35.2203 18.4218 36.0938 19.3562 36.4391C19.5797 36.561 19.8437 36.6219 20.1078 36.6016L23.5 36.7438V39.8313C23.5 40.3797 23.9468 40.8266 24.4953 40.8266C25.0437 40.8266 25.4906 40.3797 25.4906 39.8313V35.3625C25.4906 34.875 25.1453 34.4688 24.6578 34.3875Z" fill="#A7B5D1"/>
+                  <path d="M20.0468 26.5266C21.4042 26.5266 22.5046 25.4262 22.5046 24.0688C22.5046 22.7114 21.4042 21.611 20.0468 21.611C18.6894 21.611 17.589 22.7114 17.589 24.0688C17.589 25.4262 18.6894 26.5266 20.0468 26.5266Z" fill="#A7B5D1"/>
+                  <path d="M40.2985 27.3797C38.8766 27.2984 37.6578 28.375 37.5563 29.7969L37.1703 33.8594C37.1703 33.9406 37.1703 34.0219 37.1703 34.0828L35.4438 34.3469L35.3422 34.3672C34.8547 34.4484 34.5094 34.8547 34.5094 35.3422V39.8312C34.5094 40.3797 34.9563 40.8266 35.5047 40.8266C36.0531 40.8266 36.5 40.3797 36.5 39.8312V36.7437L39.8922 36.6016C40.1766 36.6219 40.4203 36.5609 40.6438 36.4391C41.5781 36.0937 42.2688 35.2203 42.3297 34.1641L42.7156 30.1016C42.7969 28.6797 41.7203 27.4609 40.2985 27.3797Z" fill="#A7B5D1"/>
+                  <path d="M39.953 26.5266C41.3105 26.5266 42.4109 25.4262 42.4109 24.0688C42.4109 22.7114 41.3105 21.611 39.953 21.611C38.5956 21.611 37.4952 22.7114 37.4952 24.0688C37.4952 25.4262 38.5956 26.5266 39.953 26.5266Z" fill="#A7B5D1"/>
+                  <path d="M35.5453 32.4172C35.5453 31.8688 35.0985 31.4219 34.55 31.4219H30H25.45C24.9016 31.4219 24.4547 31.8688 24.4547 32.4172C24.4547 32.9656 24.9016 33.4125 25.45 33.4125H26.5266V40.8469H30H33.4735V33.4125H34.55C35.0985 33.4125 35.5453 32.9656 35.5453 32.4172Z" fill="#A7B5D1"/>
+                </svg>
+              </div>
+              <h3 class="service-title fs-2">Консалтинг</h3>
+            </div>
+          </a>
+          <p>Дослідження бізнес-процесів підприємства та допомога у виборі необхідного програмного забезпечення під потреби Вашого бізнесу.</p>
+        </div>
+        <div class="feature col border-bottom">
+          <a class="service-link" href="#">
+            <div class="service-header">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M60 30C60 13.4315 46.5685 0 30 0V0C13.4315 0 -3.8147e-06 13.4315 -3.8147e-06 30V30C-3.8147e-06 46.5685 13.4315 60 30 60V60C46.5685 60 60 46.5685 60 30V30Z" fill="#EFF0F8"/>
+                  <g clip-path="url(#clip0_21_344)">
+                  <path d="M36.6016 32.3359C34.9215 32.3359 33.5547 30.9691 33.5547 29.2891C33.5547 27.609 34.9215 26.2422 36.6016 26.2422C38.2816 26.2422 39.6484 27.609 39.6484 29.2891C39.6484 30.9691 38.2816 32.3359 36.6016 32.3359Z" fill="#A7B5D1"/>
+                  <path d="M42.2383 43H17.7617C17.341 43 17 42.659 17 42.2383V40.7148C17 40.2942 17.341 39.9531 17.7617 39.9531H42.2383C42.659 39.9531 43 40.2942 43 40.7148V42.2383C43 42.659 42.659 43 42.2383 43Z" fill="#A7B5D1"/>
+                  <path d="M39.2264 33.0282C38.4832 33.5516 37.5777 33.8594 36.6016 33.8594C35.6254 33.8594 34.72 33.5516 33.9767 33.0282C33.3104 33.4067 32.7335 33.9247 32.2852 34.5419V36.1445C32.2852 36.9351 31.8815 37.6331 31.2695 38.0435V38.4297H41.9336V37.668C41.9336 35.6816 40.8416 33.9456 39.2264 33.0282Z" fill="#A7B5D1"/>
+                  <path d="M30 27.7656H17.8125C17.3918 27.7656 17.0508 28.1067 17.0508 28.5273V36.1445C17.0508 36.5652 17.3918 36.9062 17.8125 36.9062H21.326L20.8181 38.4297H26.9943L26.4865 36.9062H30C30.4207 36.9062 30.7617 36.5652 30.7617 36.1445V28.5273C30.7617 28.1067 30.4207 27.7656 30 27.7656Z" fill="#A7B5D1"/>
+                  <path d="M34.0625 17H22.8906C21.9106 17 21.1133 17.7973 21.1133 18.7773V22.8398C21.1133 23.8199 21.9106 24.6172 22.8906 24.6172H29.2615L32.1166 26.5205C32.244 26.6055 32.3913 26.6484 32.5391 26.6484C32.6624 26.6484 32.7859 26.6186 32.8985 26.5583C33.1462 26.4258 33.3008 26.1676 33.3008 25.8867V24.6172H34.0625C35.0425 24.6172 35.8398 23.8199 35.8398 22.8398V18.7773C35.8398 17.7973 35.0425 17 34.0625 17V17ZM32.0312 21.5703H24.9219C24.5012 21.5703 24.1602 21.2293 24.1602 20.8086C24.1602 20.3879 24.5012 20.0469 24.9219 20.0469H32.0312C32.4519 20.0469 32.793 20.3879 32.793 20.8086C32.793 21.2293 32.4519 21.5703 32.0312 21.5703Z" fill="#A7B5D1"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_21_344">
+                  <rect width="26" height="26" fill="white" transform="translate(17 17)"/>
+                  </clipPath>
+                  </defs>
+                </svg>              
+              </div>
+              <h3 class="service-title fs-2">Супровiд</h3>
+            </div>
+          </a>
+          <p>Технічна підтримка, консультації користувачів; надання практичних рекомендацій, спрямованих на коректне ведення обліку в системі.</p>
+        </div>
+        <div class="feature col border-bottom">
+          <a class="service-link" href="#">
+            <div class="service-header">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M60 30C60 13.4315 46.5685 0 30 0C13.4315 0 -3.8147e-06 13.4315 -3.8147e-06 30C-3.8147e-06 46.5685 13.4315 60 30 60C46.5685 60 60 46.5685 60 30Z" fill="#EFF0F8"/>
+                  <path d="M24.7594 26.3641H27.9281L30 28.4359L32.0719 26.3641H35.2406C35.2609 26.3641 35.2813 26.3438 35.2813 26.3235V19.1938C35.2813 19.1734 35.2609 19.1531 35.2406 19.1531H24.7594C24.7391 19.1531 24.7188 19.1734 24.7188 19.1938V26.3235C24.7188 26.3438 24.7391 26.3641 24.7594 26.3641Z" fill="#A7B5D1"/>
+                  <path d="M24.6578 34.3875L24.5562 34.3672L22.8297 34.1031C22.8297 34.0219 22.8297 33.961 22.8297 33.8797L22.4437 29.8172C22.3625 28.3953 21.1234 27.2985 19.7015 27.4C18.2797 27.461 17.2031 28.6797 17.2843 30.1016L17.6703 34.1641C17.7312 35.2203 18.4218 36.0938 19.3562 36.4391C19.5797 36.561 19.8437 36.6219 20.1078 36.6016L23.5 36.7438V39.8313C23.5 40.3797 23.9468 40.8266 24.4953 40.8266C25.0437 40.8266 25.4906 40.3797 25.4906 39.8313V35.3625C25.4906 34.875 25.1453 34.4688 24.6578 34.3875Z" fill="#A7B5D1"/>
+                  <path d="M20.0468 26.5266C21.4042 26.5266 22.5046 25.4262 22.5046 24.0688C22.5046 22.7114 21.4042 21.611 20.0468 21.611C18.6894 21.611 17.589 22.7114 17.589 24.0688C17.589 25.4262 18.6894 26.5266 20.0468 26.5266Z" fill="#A7B5D1"/>
+                  <path d="M40.2985 27.3797C38.8766 27.2984 37.6578 28.375 37.5563 29.7969L37.1703 33.8594C37.1703 33.9406 37.1703 34.0219 37.1703 34.0828L35.4438 34.3469L35.3422 34.3672C34.8547 34.4484 34.5094 34.8547 34.5094 35.3422V39.8312C34.5094 40.3797 34.9563 40.8266 35.5047 40.8266C36.0531 40.8266 36.5 40.3797 36.5 39.8312V36.7437L39.8922 36.6016C40.1766 36.6219 40.4203 36.5609 40.6438 36.4391C41.5781 36.0937 42.2688 35.2203 42.3297 34.1641L42.7156 30.1016C42.7969 28.6797 41.7203 27.4609 40.2985 27.3797Z" fill="#A7B5D1"/>
+                  <path d="M39.953 26.5266C41.3105 26.5266 42.4109 25.4262 42.4109 24.0688C42.4109 22.7114 41.3105 21.611 39.953 21.611C38.5956 21.611 37.4952 22.7114 37.4952 24.0688C37.4952 25.4262 38.5956 26.5266 39.953 26.5266Z" fill="#A7B5D1"/>
+                  <path d="M35.5453 32.4172C35.5453 31.8688 35.0985 31.4219 34.55 31.4219H30H25.45C24.9016 31.4219 24.4547 31.8688 24.4547 32.4172C24.4547 32.9656 24.9016 33.4125 25.45 33.4125H26.5266V40.8469H30H33.4735V33.4125H34.55C35.0985 33.4125 35.5453 32.9656 35.5453 32.4172Z" fill="#A7B5D1"/>
+                </svg>
+              </div>
+              <h3 class="service-title fs-2">Розробка</h3>
+            </div>
+          </a>
+          <p>Індивідуальна розробка програмного забезпечення під потреби Вашого бізнесу, доопрацювання програм згідно технічного завдання.</p>
+        </div>
+        <div class="feature col border-bottom">
+          <a class="service-link" href="#">
+            <div class="service-header">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M60 30C60 13.4315 46.5685 0 30 0C13.4315 0 -3.8147e-06 13.4315 -3.8147e-06 30C-3.8147e-06 46.5685 13.4315 60 30 60C46.5685 60 60 46.5685 60 30Z" fill="#EFF0F8"/>
+                  <g clip-path="url(#clip0_21_373)">
+                  <path d="M27.207 27.207C26.7303 27.207 26.3438 26.8205 26.3438 26.3437C26.3438 25.867 26.7303 25.4804 27.207 25.4804C27.6838 25.4804 28.0703 25.867 28.0703 26.3437C28.0703 26.8205 27.6838 27.207 27.207 27.207Z" fill="#A7B5D1"/>
+                  <path d="M22.332 34.5195C21.8553 34.5195 21.4688 34.133 21.4688 33.6562C21.4688 33.1795 21.8553 32.7929 22.332 32.7929C22.8088 32.7929 23.1953 33.1795 23.1953 33.6562C23.1953 34.133 22.8088 34.5195 22.332 34.5195Z" fill="#A7B5D1"/>
+                  <path d="M17.7616 17H32.0396C32.4602 17 32.8013 17.341 32.8013 17.7617V43H17.7616C17.3409 43 16.9999 42.6589 16.9999 42.2383V17.7617C16.9999 17.341 17.3409 17 17.7616 17ZM26.4452 28.6051V38.5312C26.4452 38.9519 26.7862 39.2929 27.2069 39.2929C27.6276 39.2929 27.9686 38.9519 27.9686 38.5312V28.6051C28.9121 28.2864 29.5936 27.3935 29.5936 26.3437C29.5936 25.294 28.9121 24.401 27.9686 24.0824V21.4687C27.9686 21.0481 27.6276 20.707 27.2069 20.707C26.7862 20.707 26.4452 21.0481 26.4452 21.4687V24.0824C25.5017 24.401 24.8202 25.294 24.8202 26.3437C24.8202 27.3935 25.5017 28.2864 26.4452 28.6051ZM21.5702 35.9176V38.5312C21.5702 38.9519 21.9112 39.2929 22.3319 39.2929C22.7526 39.2929 23.0936 38.9519 23.0936 38.5312V35.9176C24.0371 35.5989 24.7186 34.706 24.7186 33.6562C24.7186 32.6065 24.0371 31.7135 23.0936 31.3949V21.4687C23.0936 21.0481 22.7526 20.707 22.3319 20.707C21.9112 20.707 21.5702 21.0481 21.5702 21.4687V31.3949C20.6267 31.7135 19.9452 32.6065 19.9452 33.6562C19.9452 34.706 20.6267 35.5989 21.5702 35.9176Z" fill="#A7B5D1"/>
+                  <path d="M36.8451 26.5882V27.884C36.9298 27.9172 37.0137 27.9521 37.0969 27.9886L38.0135 27.072C38.2696 26.8159 38.6706 26.7756 38.9725 26.9755C39.5055 27.3282 40.0056 27.737 40.4593 28.1906C40.9134 28.6448 41.3222 29.145 41.6744 29.6774C41.8741 29.9794 41.8337 30.3802 41.5777 30.6362L40.6612 31.5527C40.6977 31.6361 40.7326 31.72 40.7658 31.8047H42.0616C42.4236 31.8047 42.7357 32.0596 42.8079 32.4144C42.9354 33.0399 43 33.6827 43 34.3249C43 34.9671 42.9354 35.6099 42.8079 36.2355C42.7357 36.5902 42.4236 36.8451 42.0616 36.8451H40.7658C40.7326 36.9298 40.6977 37.0139 40.6612 37.0971L41.5775 38.0135C41.8335 38.2695 41.874 38.6703 41.6743 38.9723C41.3221 39.5047 40.9132 40.005 40.459 40.4592C40.005 40.9132 39.5048 41.322 38.9723 41.6742C38.6703 41.874 38.2694 41.8336 38.0134 41.5776L37.097 40.6613C37.0138 40.6978 36.9298 40.7327 36.8451 40.7659V42.0615C36.8451 42.4236 36.5901 42.7356 36.2353 42.8079C35.6092 42.9354 34.9664 43 34.3248 43V36.201C35.3594 36.201 36.2009 35.3594 36.2009 34.3249C36.2009 33.2904 35.3593 32.4488 34.3248 32.4488V25.6516C34.9675 25.6516 35.6098 25.7142 36.2354 25.8418C36.5902 25.9141 36.8451 26.2261 36.8451 26.5882Z" fill="#A7B5D1"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_21_373">
+                  <rect width="26" height="26" fill="white" transform="translate(17 17)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <h3 class="service-title fs-2">Адмiнiстрування</h3>
+            </div>
+          </a>
+          <p>Налаштування серверного обладнання, офiсного устаткування, пiдключення торговельного обладнання.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" class="overflow-hidden mt-5">
+    <div class="container-lg px-4 py-5">
+      <div class="partners-logos">
+        <div class="logos-slide">
+          <img src="/imgs/cisco.png" width="244" height="155" alt=""> 
+          <img src="/imgs/eset.png" width="244" height="155" alt=""> 
+          <img src="/imgs/hp.png" width="244" height="155" alt=""> 
+          <img src="/imgs/microsoft.png" width="244" height="155" alt=""> 
+          <img src="/imgs/dell.png" width="244" height="155" alt=""> 
+          <img src="/imgs/epson.png" width="244" height="155" alt="">
+        </div>
+        <div class="logos-slide">
+          <img src="/imgs/cisco.png" width="244" height="155" alt=""> 
+          <img src="/imgs/eset.png" width="244" height="155" alt=""> 
+          <img src="/imgs/hp.png" width="244" height="155" alt=""> 
+          <img src="/imgs/microsoft.png" width="244" height="155" alt=""> 
+          <img src="/imgs/dell.png" width="244" height="155" alt=""> 
+          <img src="/imgs/epson.png" width="244" height="155" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="d-lg-flex align-items-center mt-5">
+    <div class="contacts-text">
+      <div class="container-lg px-4 py-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>IT Transformation</h2>
+            <div class="d-flex align-items-start mt-5">
+              <img src="/imgs/address_icon.svg" width="50" height="50" alt="#">
+              <div class="ms-3">
+                <p class="address">м. Київ, вул. Джона Маккейна, 26</p>
+                <p>
+                  <div class="phones-group">
+                    <a class="phone" href="tel:+38 (067) 459 77 78">+38 (067) 459 77 78</a>
+                    <a class="phone" href="tel:+38 (044) 459 77 78">+38 (044) 459 77 78</a>
+                  </div>
+                </p>
+                <p>Пн-Пт 9:00 - 18:00</p>
+              </div> 
+            </div>
+          
+            <div class="d-flex align-items-start mt-3">
+              <img src="/imgs/address_icon.svg" width="50" height="50" alt="#">
+              <div class="ms-3">     
+                <p class="address">м. Полтава, вул. Небесної Сотні, 4</p>
+                <p>
+                  <div class="phones-group">
+                    <a class="phone" href="tel:+38 (067) 459 77 78">+380 (0532) 69 71 71</a>
+                    <a class="phone" href="tel:+38 (044) 459 77 78">+380 (0532) 69 71 69</a>
+                  </div>
+                </p>
+                <p>Пн-Пт 9:00 - 18:00</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="ms-3" style="width: 50px; height: 50px;"></div>
+              <p><a class="text-light" href="mailto:consulting@nks.com.ua">consulting@nks.com.ua</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.215668627493!2d30.53705201561462!3d50.418453279470924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf14d2dac3bb%3A0xe5289eb0f25dd484!2z0YPQuy4g0JTQttC-0L3QsCDQnNCw0LrQutC10LnQvdCwLCAyNiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1679373810179!5m2!1sru!2sua" 
+        width="700" 
+        height="550" 
+        style="border:0; width: 100%; margin-bottom: -5px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer class="pt-5">
+    <div class="container-lg">
+      <div class="row justify-content-md-between">
+        <div class="col-md-4 mb-3">
+          <a class="footer-logo mb-3" href="#">
+            <img src="/imgs/logo_light.svg" alt="IT Transformation Logo" width="220" height="38">
+          </a>
+          <p class="mt-3 mb-5">Індивідуальний комплексний підхід для автоматизації бізнесу будь-якої складності</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2 mb-5">
+            <div>
+              <p class="address">м. Київ, вул. Джона Маккейна, 26</p>
+              <div class="phones-group">
+                <a class="phone" href="tel:+38 (044) 459 77 78"><p>+38 (044) 459 77 78</p></a>
+              </div>
+              <div><a class="text-light" href="mailto:consulting@nks.com.ua">consulting@nks.com.ua</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+          <h5>Продукти</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Безпека</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Microsoft</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">IT устаткування</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4 col-md-2 mb-3">
+          <h5>Сервіси</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Консалтинг</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Розробка</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Впровадження</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Адмiнiстрування</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-4 col-md-2 mb-3">
+          <h5>Про компанію</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Про компанію</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Навчання</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Контакти</a></li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+      <div class="container"><p class="m-0">&copy; IT TRANSFORMATION, 2001-2023</p></div>
+    </div>
+  </footer>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
